@@ -13,11 +13,8 @@ This  **Student application** contains two basic parts:
  -   Front-end(HTML,jquery)
 
 **1.1.REST API**
-
-
-
 | URL  |  Method   |   Body  |  Response  | Response Status | Contents |
-|-----| :--------| :-------|:------------|:--------|:------|
+|:-----| :--------| :-------|:------------|:--------|:------|:-------:|
 |v1/students|get|  | | 200||
 |v1/student|post|{ "name":"Jeny","age":22,"major":"Maths","sport":"Cricket","rank":1}| {"success": true}|201| |
 |v1/student/<string:id>|put|||200||
@@ -53,7 +50,7 @@ https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
 
 **3.3.Installing flask**
 	Flask is micro web framework used in python.
-	1. Open cmd  and type **`pip install flask`**
+	1. Open cmd  and type **”pip install flask”**
 	2. Done with the installation ,then move towards other step.
 	
 **3.4.Installing  mysql connection**
